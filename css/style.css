@@ -1,0 +1,395 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 50px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+  color: white;
+}
+.fontfrontpage {
+  display: flex;
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
+}
+.maxwidth {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 600px;
+  background-image: url("/assets/img/headerbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1,
+p {
+  color: white;
+
+  font-family: "Noto Sans", sans-serif;
+}
+h2 {
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  top: 40px;
+}
+
+nav ul {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li:nth-child(1) {
+  margin-right: auto;
+}
+
+nav a {
+  color: dimgray;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a.logo {
+  color: white;
+}
+.btn {
+  padding: 13px 48px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 1000px;
+  color: black;
+  transition: all 500ms ease-in-out;
+}
+.btn:hover {
+  background-color: #34ffc8;
+}
+.dark:hover {
+  background-color: white;
+}
+
+nav a.navlist {
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a.navlist:hover {
+  color: white;
+  border-bottom: 2px solid #34ffc8;
+}
+
+.dark {
+  background-color: #34ffc8;
+  transition: all 500ms ease-in-out;
+}
+
+h1 {
+  padding-bottom: 25px;
+}
+.our-mission {
+  background-color: #212121;
+  padding: 72px 0;
+}
+
+.our-mission-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.our-mission-wrapper article {
+  max-width: 441px;
+}
+h2 {
+  padding-bottom: 25px;
+}
+.image-ourmission {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 528px;
+  width: 100%;
+}
+
+.image-ourmission {
+  gap: 24px;
+}
+.meet-our-leaders1 {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 74px;
+  padding-top: 74;
+  text-align: center;
+}
+
+.leadtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  text-align: center;
+}
+
+.leadersinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 106px;
+  padding-bottom: 70px;
+  gap: 72px;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.leadersinfo h4:hover {
+  color: darkgray;
+}
+.leadersinfo a:hover {
+  color: #707070;
+}
+.fa-brands:hover {
+  color: #34ffc8;
+}
+
+.leadersinfo ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 16px;
+}
+.viewbtn {
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 1000px;
+  background-color: #707070;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+.viewbtn:hover {
+  background-color: #34ffc8;
+}
+
+.meet-our-leaders2 {
+  background-color: #212121;
+  width: 100%;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 73px;
+
+  text-align: center;
+}
+
+.free-templates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: start;
+  padding-top: 97px;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: end;
+  gap: 20px;
+}
+
+.free-templates p {
+  margin-bottom: 64px;
+}
+.reverse p {
+  margin-bottom: 64px;
+}
+
+.readmorebtn {
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 1000px;
+  background-color: #34ffc8;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+.readmorebtn:hover {
+  background-color: white;
+}
+
+.hiring {
+  background-color: black;
+  width: 100%;
+  color: #cccccc;
+  padding-bottom: 75px;
+}
+
+.hiringheadline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  text-align: center;
+  color: #cccccc;
+}
+
+.applybtn {
+  background-color: #2f2f2f;
+  padding: 10px 50px;
+  display: inline-block;
+  border-radius: 1000px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  transition: all 350ms ease-in-out;
+}
+
+.applybtn:hover {
+  background-color: #34ffc8;
+  transition: all 350ms ease-in-out;
+}
+
+.locationlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0% auto;
+  padding: 24px;
+  border-bottom: 1px solid #32323c;
+}
+.locationlist article {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #34ffc8;
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+
+.bottom p {
+  color: black;
+}
+
+.fa-regular fa-copyright {
+  color: black;
+  padding-right: 3px;
+}
+
+footer ul li:nth-child(1) {
+  margin-right: auto;
+  padding-right: 0px;
+}
+footer ul li:nth-child(2) {
+  padding-right: 72px;
+}
+
+footer li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+footer li a:hover {
+  transition: all 350ms ease-in-out;
+  color: white;
+}
