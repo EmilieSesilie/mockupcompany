@@ -43,7 +43,7 @@ h6 {
 
 header {
   min-height: 600px;
-  background-image: url("/assets/img/headerbackground.png");
+  background-image: url("../assets/img/headerbackground.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
