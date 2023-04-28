@@ -28,8 +28,8 @@ h6 {
 }
 .fontfrontpage {
   display: flex;
-  padding-left: 300px;
-  padding-right: 300px;
+  max-width: 500px;
+  width: 100%;
   text-align: center;
 }
 .maxwidth {
@@ -43,7 +43,7 @@ h6 {
 
 header {
   min-height: 600px;
-  background-image: url("../assets/img/headerbackground.png");
+  background-image: url("..//assets/img/headerbackground.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -91,6 +91,7 @@ nav a {
 nav a.logo {
   color: white;
 }
+
 .btn {
   padding: 13px 48px;
   display: inline-block;
@@ -99,6 +100,7 @@ nav a.logo {
   color: black;
   transition: all 500ms ease-in-out;
 }
+
 .btn:hover {
   background-color: #34ffc8;
 }
@@ -169,7 +171,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1080px;
+  max-width: 500px;
   margin: 0 auto;
   padding-top: 73px;
   padding-bottom: 73px;
@@ -392,4 +394,34 @@ footer li a {
 footer li a:hover {
   transition: all 350ms ease-in-out;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .our-mission-wrapper {
+    flex-direction: column;
+  }
+  .leadersinfo {
+    flex-direction: column;
+  }
+
+  .headline {
+    max-width: 500px;
+  }
+
+  .free-templates {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .reverse {
+    flex-direction: column;
+    max-width: 500px;
+  }
+  footer ul li:nth-child(2) {
+    padding-right: 15px;
+  }
+
+  .maxwidth {
+    max-width: 500px;
+  }
 }
